@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar/Navbar";
 import Introduction from "./Introduction/Introduction";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
@@ -8,6 +9,7 @@ import ContactMe from "./ContactMe/ContactMe";
 const Portfolio = () =>{
     return (
         <div>
+            <Navbar />
             <Introduction />
             <Skills />
             <Projects />
