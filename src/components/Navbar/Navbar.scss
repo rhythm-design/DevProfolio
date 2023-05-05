@@ -1,5 +1,7 @@
+@import "../../scss/globalColor.scss";
 #navbar{
-    margin-bottom: 60px;
+    padding: 10px;
+    background-color: $darkBackground;
 }
 #navbar-list{
     list-style-type: none;
@@ -10,7 +12,7 @@
     margin-top: 0;
     padding: 0px;
     overflow: hidden;
-    background-color: black;
+    background-color: $darkBackground;
 }
 
 .navbar-items {
