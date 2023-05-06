@@ -1,14 +1,8 @@
 @import "../../scss/globalColor.scss";
-#navbar{
-    padding: 10px;
-    background-color: $darkBackground;
-}
+
 #navbar-list{
     list-style-type: none;
-    position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
     margin-top: 0;
     padding: 0px;
     overflow: hidden;
@@ -27,3 +21,5 @@
     padding: 10px 20px;
     text-decoration: none;
   }
+
+  
