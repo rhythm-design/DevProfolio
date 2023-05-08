@@ -1,4 +1,9 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
+import ManHello from "../../assets/lottie/manHello.json";
+import emoji from "react-easy-emoji";
+import RenderLottie from "../RenderLottie/RenderLottie";
+import "./Introduction.scss"
 
 
 const Introduction = () => {
@@ -18,7 +23,9 @@ const Introduction = () => {
                 algorithms which can help in improving the performance
                 of the application.
             </p>
-            
+            <div className="man-hello" >
+                <RenderLottie animationJSON={ManHello}/>
+            </div>
         </div>
     );
 
