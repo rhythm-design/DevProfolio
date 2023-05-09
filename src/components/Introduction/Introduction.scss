@@ -1,13 +1,73 @@
-.man-hello{
-    width: 300px;
-    height: 300px;;
-}
+@import "../../scss/globalColor.scss";
 
 .introduction-container{
     display: flex;
-    
 }
 
-.half-box{
-    width: 50%;
+.about{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    // padding-top: 10%;
+    // padding-left: 20px;
 }
+
+.lottie-anim{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+.greeting-text {
+    font-size: 70px;
+    line-height: 1.1;
+    color: $textColor !important;
+}
+
+.greeting-text-p {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+// .about, .lottie-anim{
+//     border: 2px solid red;
+// }
+
+.wave-emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-10deg);
+    }
+    20% {
+      transform: rotate(12deg);
+    }
+    30% {
+      transform: rotate(-10deg);
+    }
+    40% {
+      transform: rotate(9deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+// .half-box:first-child{
+//     margin-right: 20px;
+// }
+
+//flex wrap- wrap foor column

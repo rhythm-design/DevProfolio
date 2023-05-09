@@ -10,13 +10,14 @@ const Introduction = () => {
 
     return (
 
-        <Fade direction="up" duration={2000} distance="30px">
+        <Fade triggerOnce={true} direction="up" duration={1500} distance="30px">
             <div className="introduction-container">
-                <div className="half-box">
-                    <h1>
-                        Hi, I am Rhythm Varshney. 
+                <div className="about">
+                    <h1 className="greeting-text">
+                        Hi, I am Rhythm 
+                        <span className="wave-emoji">{emoji("👋")}</span>
                     </h1>
-                    <p> 
+                    <p className="greeting-text-p subTitle"> 
                         A passionate Full Stack Developer. I have built projects 
                         that showcase my skills, and I love learning and building 
                         new and innovative technology. I have build applications 
@@ -24,15 +25,17 @@ const Introduction = () => {
                         cool libraries and frameworks. I can design efficient 
                         algorithms which can help in improving the performance
                         of the application.
+                        
                     </p>
                 </div>
-                <div className="half-box" >
+                <div className="lottie-anim" >
                     <div className="man-hello">
-                        <RenderLottie className="man-hello" animationJSON={ManHello}/>
+                        <RenderLottie animationJSON={ManHello}/>
                     </div>  
                 </div>
             </div>
         </Fade>
+
     );
 
 }
