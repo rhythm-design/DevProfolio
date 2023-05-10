@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal";
+import { Fade } from "react-reveal";
 import ManHello from "../../assets/lottie/manHello.json";
 import emoji from "react-easy-emoji";
 import RenderLottie from "../RenderLottie/RenderLottie";
@@ -10,7 +10,7 @@ const Introduction = () => {
 
     return (
 
-        <Fade triggerOnce={true} direction="up" duration={1500} distance="30px">
+        <Fade bottom duration={1000} distance="40px">
             <div className="introduction-container">
                 <div className="about">
                     <h1 className="greeting-text">

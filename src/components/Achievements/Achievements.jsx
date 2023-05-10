@@ -18,6 +18,18 @@ const Achievements = () => {
                     consectetur eum sed expedita velit labore
                     suscipit fugit maxime laborum quas odit 
                     ad sint itaque! Amet sint numquam tempora?
+                    consectetur eum sed expedita velit labore
+                    suscipit fugit maxime laborum quas odit 
+                    ad sint itaque! Amet sint numquam tempora?
+                    consectetur eum sed expedita velit labore
+                    suscipit fugit maxime laborum quas odit 
+                    ad sint itaque! Amet sint numquam tempora?
+                    consectetur eum sed expedita velit labore
+                    suscipit fugit maxime laborum quas odit 
+                    ad sint itaque! Amet sint numquam tempora?
+                    consectetur eum sed expedita velit labore
+                    suscipit fugit maxime laborum quas odit 
+                    ad sint itaque! Amet sint numquam tempora?
                 </li>
                 <li>
                     Lorem, ipsum dolor sit amet consectetur 
