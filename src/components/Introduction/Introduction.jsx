@@ -4,6 +4,7 @@ import ManHello from "../../assets/lottie/manHello.json";
 import emoji from "react-easy-emoji";
 import RenderLottie from "../RenderLottie/RenderLottie";
 import ProfileIcons from "../ProfileIcons/ProfileIcons";
+import Button from "../../utils/Button/Button";
 import "./Introduction.scss";
 
 
@@ -31,6 +32,8 @@ const Introduction = () => {
                         
                     </p>
                     <ProfileIcons />
+                    <Button text="Contact Me" href="#" />
+                    <Button text="See My Resume" href="#" />
                 </div>
                 <div className="lottie-anim" >
                     <div className="man-hello">
