@@ -3,7 +3,10 @@ import { Fade } from "react-reveal";
 import ManHello from "../../assets/lottie/manHello.json";
 import emoji from "react-easy-emoji";
 import RenderLottie from "../RenderLottie/RenderLottie";
-import "./Introduction.scss"
+import ProfileIcons from "../ProfileIcons/ProfileIcons";
+import "./Introduction.scss";
+
+
 
 
 const Introduction = () => {
@@ -27,6 +30,7 @@ const Introduction = () => {
                         of the application.
                         
                     </p>
+                    <ProfileIcons />
                 </div>
                 <div className="lottie-anim" >
                     <div className="man-hello">
