@@ -1,0 +1,27 @@
+.skills-container{
+    display: flex;
+}
+
+.skills-lottie-anim{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+.skills-text-container{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+.skills-heading{
+    font-size: calc(20px + 2vw);
+}
+
+.skills-subheading{
+    font-size: calc(5px + 1vw);
+}
+
+.skills-list{
+    list-style-type: none;
+}
