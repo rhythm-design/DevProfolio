@@ -2,6 +2,7 @@
 
 .introduction-container{
     display: flex;
+    padding: 0px 2vw 2vh 2vw;
 }
 
 .about{
@@ -19,13 +20,13 @@
 }
 
 .greeting-text {
-    font-size: 70px;
+    font-size: calc(30px + 2vw);
     line-height: 1.1;
     color: $textColor !important;
 }
 
 .greeting-text-p {
-    font-size: 30px;
+    font-size: calc(10px + 1vw);
     line-height: 40px;
 }
 
@@ -66,5 +67,9 @@
     }
   }
 
+.contact-button-div{
+  display: flex;
+  margin-top: 5px;
+}
 
 //flex wrap- wrap foor column

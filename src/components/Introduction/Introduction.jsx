@@ -22,9 +22,8 @@ const Introduction = () => {
                         <span className="wave-emoji">{emoji("👋")}</span>
                     </h1>
                     <p className="greeting-text-p subTitle"> 
-                        A passionate Full Stack Developer. I have built projects 
-                        that showcase my skills, and I love learning and building 
-                        new and innovative technology. I have build applications 
+                        A passionate Software Developer. I have built projects 
+                        that showcase my skills. I have build applications 
                         with JavaScript, ReactJS, NodeJS, SpringBoot and some other 
                         cool libraries and frameworks. I can design efficient 
                         algorithms which can help in improving the performance
@@ -32,8 +31,10 @@ const Introduction = () => {
                         
                     </p>
                     <ProfileIcons />
-                    <Button text="Contact Me" href="#" />
-                    <Button text="See My Resume" href="#" />
+                    <div className="contact-button-div">
+                        <Button text="Contact Me" href="#" />
+                        <Button text="See My Resume" href="#" newTab={true} />
+                    </div>
                 </div>
                 <div className="lottie-anim" >
                     <div className="man-hello">
