@@ -1,4 +1,5 @@
 import React from "react";
+import "./SoftwareSkills.scss";
 
 const SoftwareSkills = () => {
     return (
