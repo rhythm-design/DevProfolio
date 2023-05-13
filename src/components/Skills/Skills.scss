@@ -24,4 +24,10 @@
 
 .skills-list{
     list-style-type: none;
+    line-height: 25px;
+}
+
+.skills-list > *{
+    flex: 1;
+    margin-bottom: 15px;
 }

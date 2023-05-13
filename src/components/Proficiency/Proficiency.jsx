@@ -1,4 +1,5 @@
-
+import RenderLottie from "../RenderLottie/RenderLottie";
+import ProficientLottie from "../../assets/lottie/Proficiency-lottie.json";
 const Proficiency = () => {
     return (
         <div>
@@ -11,6 +12,7 @@ const Proficiency = () => {
                 <li>Springboot</li>
                 <li>Data Structures and Algorithms</li>
             </ul>
+            <RenderLottie animationJSON={ProficientLottie} />
         </div>
     );
 }

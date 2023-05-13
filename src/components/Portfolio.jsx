@@ -12,8 +12,8 @@ const Portfolio = () =>{
             <Navbar />
             <Introduction />
             <Skills />
-            <Projects />
             <Proficiency />
+            <Projects />
             <Achievements />
             <ContactMe />
         </div>
