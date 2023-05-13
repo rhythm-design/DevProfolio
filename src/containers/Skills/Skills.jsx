@@ -3,8 +3,8 @@ import emoji from "react-easy-emoji";
 import { Fade } from "react-reveal";
 
 import ManProgramming from "../../assets/lottie/man-programming.json";
-import RenderLottie from "../RenderLottie/RenderLottie";
-import SoftwareSkills from "../SoftwareSkills/SoftwareSkills";
+import RenderLottie from "../../components/RenderLottie/RenderLottie";
+import SoftwareSkills from "../../components/SoftwareSkills/SoftwareSkills";
 import "./Skills.scss";
 
 const Skills = () =>{

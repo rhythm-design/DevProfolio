@@ -1,4 +1,4 @@
-import RenderLottie from "../RenderLottie/RenderLottie";
+import RenderLottie from "../../components/RenderLottie/RenderLottie";
 import ProficientLottie from "../../assets/lottie/Proficiency-lottie.json";
 const Proficiency = () => {
     return (

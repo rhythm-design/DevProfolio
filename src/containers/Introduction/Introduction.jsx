@@ -2,8 +2,8 @@ import React from "react";
 import { Fade } from "react-reveal";
 import ManHello from "../../assets/lottie/manHello.json";
 import emoji from "react-easy-emoji";
-import RenderLottie from "../RenderLottie/RenderLottie";
-import ProfileIcons from "../ProfileIcons/ProfileIcons";
+import RenderLottie from "../../components/RenderLottie/RenderLottie";
+import ProfileIcons from "../../components/ProfileIcons/ProfileIcons";
 import Button from "../../utils/Button/Button";
 import "./Introduction.scss";
 

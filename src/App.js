@@ -1,5 +1,5 @@
 import './App.scss';
-import Portfolio from './components/Portfolio';
+import Portfolio from './containers/Portfolio';
 
 function App() {
   return (
