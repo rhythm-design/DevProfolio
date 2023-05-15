@@ -1,0 +1,43 @@
+@import "../../scss/globalColor.scss";
+
+.meter {
+    height: 20px;
+    position: relative;
+    background: $progressBarBackground;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: $progressBarSpanBG;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill {
+    line-height: 2.5vw;
+}
+
+.skills-bar {
+    font-size: 20px;
+}
+
+.skill-bars-container {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    // margin-top: 1rem;
+}
+
+.skill-bars-container > * {
+    flex: 1;
+    margin-bottom: 30px;
+}
+  

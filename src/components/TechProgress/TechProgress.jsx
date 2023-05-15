@@ -1,11 +1,12 @@
 import React from "react";
+import "./TechProgress.scss";
 
 const TechProgress = () => {
     return (
         <div className="skill-bars-container">
             <div className="skills-bar">
                 <h1>
-                        Proficiency
+                    Proficiency
                 </h1>
                 <div className="skill frontend">
                     <p>Frontend</p>
