@@ -1,4 +1,5 @@
 import React from "react";
+import GitRepoCard from "../../components/GitRepoCard/GitRepoCard";
 
 const Projects = () => {
     return (
@@ -6,6 +7,7 @@ const Projects = () => {
             <h1>
                 What I have made
             </h1>
+            <GitRepoCard userName="rhythm-design" repoName="navigatethebot" />
             <p>
                 <ul>
                     <li>Project 1 details goes here</li>
