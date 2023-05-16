@@ -1,0 +1,15 @@
+.repo-cards-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem 1rem;  
+}
+
+.project-title {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.projects-parent-div{
+    padding: 50px;
+}

@@ -1,8 +1,13 @@
 import React, {useEffect, useState} from "react";
 import { Fade } from "react-reveal";
+import "./GitRepoCard.scss";
 
 const GitRepoCard = ({userName, repoName}) => {
     const [repository, setRepository] = useState(null);
+
+    const handleClick = () => {
+        window.open(repository.html_url, '_blank');
+    };
 
     useEffect(() => {
         const fetchRepositoryDetails = async () => {
@@ -24,8 +29,9 @@ const GitRepoCard = ({userName, repoName}) => {
     
     return (
         <Fade bottom duration={1000} distance="20px">
-            <div className="test">
-                <div className="dark-card-mode repo-card-div">
+            <div>
+                {console.log("this is repo",repository.language)}
+                <div className="repo-card-div" onClick={handleClick}>
                     <div className="repo-name-div">
                         <svg
                         aria-hidden="true"
@@ -49,11 +55,11 @@ const GitRepoCard = ({userName, repoName}) => {
                                 <span>
                                 <div
                                     className="language-color"
-                                    style={{backgroundColor: repository.language.color}}
                                 ></div>
                                 <p>{repository.language}</p>
                                 </span>
                             )}
+                            {console.log(repository.language.color)}
                             <span>
                                 <svg
                                 aria-hidden="true"
