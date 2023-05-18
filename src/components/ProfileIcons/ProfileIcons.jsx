@@ -10,7 +10,7 @@ const ProfileIcons = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <i class="fa fa-github"></i>
+                <i className="fa fa-github"></i>
             </a>
 
             <a
@@ -19,7 +19,7 @@ const ProfileIcons = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <i class="fas fa-code"></i>
+                <i className="fas fa-code"></i>
                 <span></span>
             </a>
 

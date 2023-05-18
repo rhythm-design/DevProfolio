@@ -28,9 +28,8 @@ const GitRepoCard = ({userName, repoName}) => {
     }
     
     return (
-        <Fade bottom duration={1000} distance="20px">
+        <Fade bottom duration={1500} distance="20px">
             <div>
-                {console.log("this is repo",repository.language)}
                 <div className="repo-card-div" onClick={handleClick}>
                     <div className="repo-name-div">
                         <svg
@@ -59,7 +58,6 @@ const GitRepoCard = ({userName, repoName}) => {
                                 <p>{repository.language}</p>
                                 </span>
                             )}
-                            {console.log(repository.language.color)}
                             <span>
                                 <svg
                                 aria-hidden="true"
@@ -106,5 +104,3 @@ const GitRepoCard = ({userName, repoName}) => {
 }
 
 export default GitRepoCard;
-
- 
