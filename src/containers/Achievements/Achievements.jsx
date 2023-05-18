@@ -1,3 +1,6 @@
+import React from "react";
+import AchievementCard from "../../components/AchievementCard/AchievementCard";
+import { Fade } from "react-reveal";
 
 const Achievements = () => {
     return (
@@ -6,36 +9,31 @@ const Achievements = () => {
                 Achievements and Certifications
             </h1>
 
-            <ul>
-                <li>
-                    1 goes here
-                </li>
-                <li>
-                    Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Quae, sapiente officia 
-                </li>
-                <li>
-                    consectetur eum sed expedita velit labore
-                    suscipit fugit maxime laborum quas odit 
-                    ad sint itaque! Amet sint numquam tempora?
-                    consectetur eum sed expedita velit labore
-                    suscipit fugit maxime laborum quas odit 
-                    ad sint itaque! Amet sint numquam tempora?
-                    consectetur eum sed expedita velit labore
-                    suscipit fugit maxime laborum quas odit 
-                    ad sint itaque! Amet sint numquam tempora?
-                    consectetur eum sed expedita velit labore
-                    suscipit fugit maxime laborum quas odit 
-                    ad sint itaque! Amet sint numquam tempora?
-                    consectetur eum sed expedita velit labore
-                    suscipit fugit maxime laborum quas odit 
-                    ad sint itaque! Amet sint numquam tempora?
-                </li>
-                <li>
-                    Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Quae, sapiente officia
-                </li>
-            </ul>
+            <div className="achievement-cards">
+                <AchievementCard
+                    title="This is title"
+                    description = "This is description"
+                    imageAlt = "This is alt"
+                />
+                
+                <AchievementCard
+                    title="This is title"
+                    description = "This is description"
+                    imageAlt = "This is alt"    
+                />
+
+                <AchievementCard
+                    title="This is title"
+                    description = "This is description"
+                    imageAlt = "This is alt"    
+                />
+
+                <AchievementCard
+                    title="This is title"
+                    description = "This is description"
+                    imageAlt = "This is alt"   
+                />
+            </div>
         </div>
     );
 }
