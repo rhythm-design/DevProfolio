@@ -1,0 +1,25 @@
+.achievement-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem 1rem; 
+}
+
+.achievements-main-container{
+    padding: 30px;
+    margin: 30px;
+    margin-top:0;
+    padding-top: 0;
+}
+
+.achievement-heading {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.achievement-subtitle {
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 50px;
+}

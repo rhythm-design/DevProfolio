@@ -1,8 +1,12 @@
 import React from "react";
+import "./AchievementCard.scss";
 
-const AchievementCard = ({title,description,imageSrc,imageAlt,link}) => {
+const AchievementCard = ({title,description,imageSrc,imageAlt,hasAchievementLink,linkToCertificateOrAchievement,achievementTitle}) => {
+    const handleClick = () => {
+        window.open(linkToCertificateOrAchievement, '_blank');
+    };
     return(
-        <div className="dark-mode certificate-card">
+        <div className="certificate-card">
             <div className="certificate-image-div">
                 <img
                 src={imageSrc}
@@ -11,16 +15,20 @@ const AchievementCard = ({title,description,imageSrc,imageAlt,link}) => {
                 ></img>
             </div>
             <div className="certificate-detail-div">
-                <h5 className="dark-mode card-title">
+                <h5 className="card-title">
                 {title}
                 </h5>
-                <p className="dark-mode card-subtitle">
+                <p className="card-subtitle">
                 {description}
                 </p>
             </div>
-            <div className="certificate-card-footer">
-                <span className="dark-mode certificate-tag"> This would be link to ach</span>
-            </div>
+            {
+                hasAchievementLink?
+                    <div className="certificate-card-footer">
+                        <span className="certificate-tag" onClick={handleClick}> {achievementTitle}</span>
+                    </div>
+                :null
+            }
     </div>
     );
 }
