@@ -4,7 +4,10 @@ import Portfolio from './containers/Portfolio';
 function App() {
   return (
     <div className="App">
-          <Portfolio />
+        <div className="portfolio-desktop">
+          <Portfolio/>
+        </div>
+        <h1 className="mobile-support">Mobile Support is coming soon</h1>
     </div>
   );
 }
