@@ -32,7 +32,7 @@ const Introduction = () => {
                     </p>
                     <ProfileIcons />
                     <div className="contact-button-div">
-                        <Button text="Contact Me" href="#" />
+                        <Button text="Contact Me" href="#contact" />
                         <Button text="See My Resume" href="#" newTab={true} />
                     </div>
                 </div>
