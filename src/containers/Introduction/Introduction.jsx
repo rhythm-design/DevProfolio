@@ -33,7 +33,7 @@ const Introduction = () => {
                     <ProfileIcons />
                     <div className="contact-button-div">
                         <Button text="Contact Me" href="#contact" />
-                        <Button text="See My Resume" href="#" newTab={true} />
+                        <Button text="See My Resume" href="https://drive.google.com/file/d/163-8rfxj4b4wcB1kLY8wOi2C8oBfVpLl/view?usp=share_link" newTab={true} />
                     </div>
                 </div>
                 <div className="lottie-anim" >

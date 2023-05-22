@@ -53,7 +53,7 @@ const GitRepoCard = ({userName, repoName}) => {
                             {repository.language !== null && (
                                 <span>
                                 <div
-                                    className="language-color"
+                                    className={`language-color ${repository.language}`}
                                 ></div>
                                 <p>{repository.language}</p>
                                 </span>
