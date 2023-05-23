@@ -10,7 +10,7 @@ import "./Skills.scss";
 const Skills = () =>{
     
     return (
-        <div className="skills-container">
+        <div id="skills" className="skills-container">
             <div className="skills-lottie-anim">
                 <Fade left duration={1000}>
                     <RenderLottie animationJSON={ManProgramming} />

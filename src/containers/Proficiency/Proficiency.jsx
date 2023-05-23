@@ -4,7 +4,7 @@ import TechProgress from "../../components/TechProgress/TechProgress";
 import "./Proficiency.scss"
 const Proficiency = () => {
     return (
-        <div className="prof-container">
+        <div id="proficiency" className="prof-container">
             <div className="prof-text">
                 <TechProgress />
             </div>

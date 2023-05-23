@@ -5,7 +5,7 @@ import "./Projects.scss";
 
 const Projects = () => {
     return (
-        <div className="projects-parent-div">
+        <div id="projects" className="projects-parent-div">
             <h1 className="project-heading">
                 What I have made
             </h1>
