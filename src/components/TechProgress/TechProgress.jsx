@@ -5,7 +5,7 @@ const TechProgress = () => {
     return (
         <div className="skill-bars-container">
             <div className="skills-bar">
-                <h1>
+                <h1 className="prof-main-heading">
                     Proficiency
                 </h1>
                 <div className="skill frontend">

@@ -19,3 +19,31 @@
     justify-content: center;
     margin-top: 10px;
 }
+
+@media only screen and (max-width: 961px){
+    .repo-cards-div{
+        display: block;
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .repo-cards-div .repo-card-div{
+        height: auto;
+        width: auto;
+        margin-bottom: 1em;
+    }
+
+    .project-heading{
+        font-size: 35px;
+        line-height: 1em;
+        padding-left: 3vw;
+    }
+
+    .projects-parent-div{
+        padding: 0;
+    }
+
+    .button-div{
+        margin-top: 0;
+    }
+}

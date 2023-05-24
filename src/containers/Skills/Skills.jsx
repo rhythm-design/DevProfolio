@@ -26,9 +26,9 @@ const Skills = () =>{
                         FULL STACK DEVELOPER WHO WANT TO EXPLORE AND BECOME 
                         BEST IN EVERY TECH STACK
                     </h3>
-
-                    <SoftwareSkills />
-
+                    <div className="software-skills-skill">
+                        <SoftwareSkills />
+                    </div>
                     <ul className="skills-list">
                         <li>
                             {emoji("⚡ Develop highly interactive FrontEnd / User Interface for you web and mobile applications.")}

@@ -40,4 +40,16 @@
     flex: 1;
     margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 961px){
+    .prof-main-heading{
+        font-size: 35px;
+        padding-left: 3vw;
+    }
+
+    .skill{
+        font-size: 20px;
+        padding: 0.5em;
+    }
+}
   

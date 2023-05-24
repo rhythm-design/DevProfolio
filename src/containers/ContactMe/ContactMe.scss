@@ -63,49 +63,44 @@
 .subTitle {
     color: $subTitle;
 }
-  
-@media (max-width: 768px) {
-    .row {
-      display: flex;
-      flex-direction: column;
+
+
+@media only screen and (max-width: 961px){
+    .row{
+        padding: 2vw;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 30px 30px 0 30px;
     }
-  
-    .main-content-profile {
-      text-align: center;
-      order: 2;
+
+    .image-content-profile{
+        padding-top: 2vw;
+        text-align: center;
     }
-  
-    .bio-text {
-      font-size: 16px;
+
+    .main-content-profile{
+        text-align: center;
     }
-  
-    .image-content-profile {
-      margin-left: auto;
-      margin-right: auto;
-      order: 1;
+
+    .prof-title{
+        font-size: 35px;
+        padding: 3vw;
     }
-  
-    .desc-prof {
-      line-height: 30px;
-      font-size: 16px;
+
+    .contact-card{
+        padding: 0;
+        padding-bottom: 1em;
     }
-  
+
+    .bio-text{
+        font-size: 15px;
+    }
+
     .profile-image {
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-      max-width: 250px;
-      height: auto;
-    }
-  
-    .profile-image:hover {
-      box-shadow: $lightBoxShadow 0 50px 50px -50px;
-      transition: 0.3s ease-out;
-    }
-  
-    .prof-title {
-      padding-bottom: 1rem;
-      font-size: 32px;
-      text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 12em;
+        max-height: 12em;
     }
 }

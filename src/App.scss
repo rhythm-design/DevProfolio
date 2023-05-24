@@ -2,30 +2,5 @@
 
 .App{
     background-color: $darkBackground;
-    color: white;
-}
-
-.mobile-support{
-    display:none
-}
-
-.portfolio-desktop{
-    display:block
-}
-
-@media (max-width:961px){
-    .portfolio-desktop {
-        display:none
-    }
-    
-    .mobile-support {
-        display:block;
-        color: red;
-    }
-    .App{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        line-height: 50px;
-    }
+    color: $textColor;
 }

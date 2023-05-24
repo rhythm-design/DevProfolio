@@ -9,8 +9,6 @@
     width: 60%;
     margin: auto;
     padding: 10px;
-    // padding-top: 10%;
-    // padding-left: 20px;
 }
 
 .lottie-anim{
@@ -29,11 +27,6 @@
     font-size: calc(10px + 1vw);
     line-height: 40px;
 }
-
-
-// .about, .lottie-anim{
-//     border: 2px solid red;
-// }
 
 .wave-emoji {
     animation-duration: 1.8s;
@@ -72,4 +65,45 @@
   margin-top: 5px;
 }
 
-//flex wrap- wrap foor column
+@media only screen and (max-width: 961px){
+
+  .introduction-container{
+    display: block;
+  }
+
+  .lottie-anim{
+    display: block;
+    width: 80%;
+    height: 80%;
+  }
+
+  .contact-button-div{
+    display: flex;
+    justify-content: center;
+  }
+
+  .greeting-text{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding-top: 1em;
+  }
+
+  .about{
+    width: 100%;
+    padding: 0;
+  }
+
+  .greeting-text-p{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: $textColor;
+    padding: 0.5em;
+  }
+  
+  .main-button{
+    margin: 2vw;
+  }
+
+}

@@ -32,3 +32,37 @@
     flex: 1;
     margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 961px){
+    .skills-container{
+        display: block;
+    }
+
+    .skills-lottie-anim{
+        display: none;
+    }
+
+    .skills-text-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .skills-heading{
+        padding-left: 3vw;
+        font-size: 35px;
+    }
+
+    .skills-subheading{
+        padding-left: 3vw;
+        font-size: 15px;
+    }
+    
+    .software-skills-skill{
+        padding-left: 5vw;
+    }
+
+    .skills-list{
+        padding-right: 1em;
+    }
+}

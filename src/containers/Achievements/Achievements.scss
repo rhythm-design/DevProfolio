@@ -16,10 +16,36 @@
     font-weight: 400;
     line-height: normal;
     margin: 0px;
+    margin-top: 1em;
 }
 
 .achievement-subtitle {
     text-transform: uppercase;
     margin: 0px;
     margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 961px){
+    .achievement-cards{
+        display: block;
+        padding: 4vw;
+    }
+
+    .achievement-heading {
+        font-size: 30px;
+        padding-left: 3vw;
+        font-weight: bold;
+    }
+
+    .achievement-subtitle{
+        font-size: 15px;
+        padding-left: 3vw;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .achievements-main-container{
+        margin: 0;
+        padding: 0;
+    }
 }

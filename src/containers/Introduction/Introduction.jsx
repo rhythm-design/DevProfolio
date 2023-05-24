@@ -21,7 +21,7 @@ const Introduction = () => {
                         Hi, I am Rhythm 
                         <span className="wave-emoji">{emoji("👋")}</span>
                     </h1>
-                    <p className="greeting-text-p subTitle"> 
+                    <p className="greeting-text-p subTitle-intro"> 
                         A passionate Software Developer. I have built projects 
                         that showcase my skills. I have build applications 
                         with JavaScript, ReactJS, NodeJS, SpringBoot and some other 

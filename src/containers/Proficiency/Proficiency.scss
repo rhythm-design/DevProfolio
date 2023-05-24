@@ -24,3 +24,19 @@
 .prof-heading{
     font-size: calc(10px + 2vw);
 }
+
+@media only screen and (max-width: 961px){
+    .prof-container{
+        display: block;
+    }
+
+    .prof-text {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .prof-lottie{
+        width: 90%;
+    }
+}
