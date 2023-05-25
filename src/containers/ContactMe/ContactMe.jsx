@@ -42,7 +42,7 @@ const ContactMe = () => {
                     <div className="image-content-profile">
                         <img
                             src={ProfilePicture}
-                            alt="profile-picture"
+                            alt=""
                             className="profile-image"
                         />
                     </div>

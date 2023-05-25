@@ -6,7 +6,7 @@ import "./Achievements.scss";
 
 const Achievements = () => {
     return (
-        <Fade bottom duration={1000} >
+        <Fade bottom duration={1000} distance="20px">
             <div id="achievements" className="achievements-main-container">
                 <h1 className="achievement-heading"> 
                     {emoji("Achievements and Certifications🏆")}
