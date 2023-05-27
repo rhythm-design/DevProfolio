@@ -1,39 +1,30 @@
 import React from "react";
 import { Fade } from "react-reveal";
 import ManHello from "../../assets/lottie/manHello.json";
+import { introduction } from "../../PortfolioData";
 import emoji from "react-easy-emoji";
 import RenderLottie from "../../components/RenderLottie/RenderLottie";
 import ProfileIcons from "../../components/ProfileIcons/ProfileIcons";
 import Button from "../../utils/Button/Button";
 import "./Introduction.scss";
 
-
-
-
 const Introduction = () => {
 
     return (
-
         <Fade bottom duration={1000} distance="40px">
             <div className="introduction-container">
                 <div className="about">
                     <h1 className="greeting-text">
-                        Hi, I am Rhythm 
+                        Hi, I am {introduction.firstName}
                         <span className="wave-emoji">{emoji("👋")}</span>
                     </h1>
                     <p className="greeting-text-p subTitle-intro"> 
-                        A passionate Software Developer. I have built projects 
-                        that showcase my skills. I have build applications 
-                        with JavaScript, ReactJS, NodeJS, SpringBoot and some other 
-                        cool libraries and frameworks. I can design efficient 
-                        algorithms which can help in improving the performance
-                        of the application.
-                        
+                        {introduction.introductionText}
                     </p>
                     <ProfileIcons />
                     <div className="contact-button-div">
-                        <Button text="Contact Me" href="#contact" />
-                        <Button text="See My Resume" href="https://drive.google.com/file/d/163-8rfxj4b4wcB1kLY8wOi2C8oBfVpLl/view?usp=share_link" newTab={true} />
+                        <Button text={introduction.contactButtonText} href="#contact" />
+                        <Button text={introduction.resumeButtonText} href={introduction.resumeLink} newTab={true} />
                     </div>
                 </div>
                 <div className="lottie-anim" >

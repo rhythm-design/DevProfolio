@@ -1,4 +1,5 @@
 import React from "react";
+import { splashScreenName } from "../../PortfolioData";
 import "./SplashScreen.scss";
 import RenderLottie from "../../components/RenderLottie/RenderLottie";
 import SplashScreenLottie from "../../assets/lottie/SplashScreen.json";
@@ -11,7 +12,7 @@ const SplashScreen = () => {
           </div>
           <div className="splash-title-container">
             <span className="brackets"> &lt;</span>
-            <span className="splash-title">Rhythm</span>
+            <span className="splash-title">{splashScreenName.name}</span>
             <span className="brackets">/&gt;</span>
           </div>
         </div>
