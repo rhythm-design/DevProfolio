@@ -1,70 +1,112 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h2 align="center">DevProfolio</h3>
+  <p align="center">
+    An awesome customizable portfolio for developers 
+    <br />
+    <a href="https://rhythmvarshney.me/"><strong>« View Demo »</strong></a>
+    <br />
+  </p>
+</div>
 
-## Available Scripts
+<!-- ABOUT THE PROJECT -->
+## About The Portfolio
 
-In the project directory, you can run:
+![github-portfolio-gif](https://github.com/rhythm-design/DevProfolio/assets/56234578/7b0ccc72-3452-4bd2-8b75-daab3fae087b)
 
-### `npm start`
+This the fully customizable portfolio made exclusively for developers. Through this, a developer can either modify the portfolio data to make it for them or can also use it to learn how to create a portfolio.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Below are some details which this portolio supports
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Developers can also list in which Tech Stacks they have experience.
+* Developers can also showcase how much percent they are proficient in certain tech stack
+* Developers can add their github repository in the projects section to showcase what they have made.
+* Developer can also add their achievements in the portfolio
+* Developer can add the linkedin, mail, coding profiles, github profile in the portfolio. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built With
 
-### `npm run build`
+* [![React][React.js]][React-url]
+* [![HTML]][Html-url]
+* [![SASS]][SASS-url]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- GETTING STARTED -->
+## How to edit (Make this portfolio for you 🥳)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+First we need to setup this project locally. To get a local copy up and running follow these simple example steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+This is an example of how to list things you need to use the software and how to install them.
+* Check if npm is installed
+  ```
+  npm --version
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Perform the below mentioned steps in the Terminal or Command Prompt.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repo
+   ```sh
+   gh repo clone rhythm-design/DevProfolio
+   ```
+2. Install NPM packages
+   ```sh
+   npm install --legacy-peer-deps
+   ```
+3. (Optional) You may also need to run below command to install compatible updates to vulnerable dependencies
+   ```js
+   npm audit fix --force
+   ```
+4. Start the server
+   ```js
+   npm start
+   ```
+### Editing Portfolio
+ 1. Go to the PortfolioData.js file which will be located at 
+    ```
+    src/PortfolioData.js
+    ```
+ 2. In `PortfolioData.js` file, there we have objects for every data that is being used in Portfolio.
+ 3. You just need to edit the simple data, which upon saving will get updated to Portfolio website.
+ 4. <strong> Please handle the JS objects with care. Don't change the variable names, just change the data allocated to variables(Mostly String data). </strong>
+ 5. For changing profile picture, drag and drop your photo to `src/assets/images` and rename it is `ProfilePicture.jpg`. Profile picture would get updated.
+ 6. In `PortfolioData.js`, various comments are mention to make it easier to edit.
+ 
+ 
+<!-- CONTRIBUTING -->
+## Contribute a feature
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## Learn More
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+<strong>Don't forget to give the project a star! Thanks again! </strong>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<!-- Profiles -->
+<br />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![LinkedIN]][Linkedin-url]
+[![Leetcode]][LeetCode-url]
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- MARKDOWN LINKS & IMAGES -->
+[SASS-url]: https://sass-lang.com/
+[SASS]: https://img.shields.io/badge/SASS-a91e50?style=for-the-badge&logo=SCSS&logoColor=563d7c
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[HTML]: https://img.shields.io/badge/HTML-FF2D20?style=for-the-badge&logo=HTML&logoColor=white
+[html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[LinkedIN]: https://img.shields.io/badge/LinkedIN-0077B5?style=for-the-badge&logo=LinkedIN&logoColor=white
+[Linkedin-url]:https://www.linkedin.com/in/rhythmvarshney/
+[Leetcode]: https://img.shields.io/badge/Leetcode-20232A?style=for-the-badge&logo=Leetcode&logoColor=white
+[LeetCode-url]:https://leetcode.com/rhythm_varshney/
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
