@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Headroom from 'react-headroom';
+import { navBarIcon } from '../../PortfolioData';
 import './Navbar.scss';
 
 const Navbar = () => {
@@ -13,7 +14,7 @@ const Navbar = () => {
     <div className="headroom">
       <Headroom>
         <header className="navbar-header" id="portfolio-navbar">
-          <label className="logo">&lt;Rhythm&gt;</label>
+          <label className="logo">&lt;{navBarIcon.name}&gt;</label>
           <div className={`navbar-list ${isMobileMenuOpen ? 'open' : ''}`}>
             <ul>
               <li className="navbar-items" onClick={toggleMobileMenu}>

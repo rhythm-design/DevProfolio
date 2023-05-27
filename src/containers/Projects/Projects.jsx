@@ -1,24 +1,24 @@
 import React from "react";
 import GitRepoCard from "../../components/GitRepoCard/GitRepoCard";
 import Button from "../../utils/Button/Button";
+import { projectsGithubRepos } from "../../PortfolioData";
 import "./Projects.scss";
 
 const Projects = () => {
     return (
         <div id="projects" className="projects-parent-div">
             <h1 className="project-heading">
-                What I have made
+                {projectsGithubRepos.heading}
             </h1>
             <div className="repo-cards-div">
-                <GitRepoCard userName="rhythm-design" repoName="navigatethebot" />
-                <GitRepoCard userName="rhythm-design" repoName="keepnotes" />
-                <GitRepoCard userName="rhythm-design" repoName="rhythm-portfolio" />
-                <GitRepoCard userName="rhythm-design" repoName="Bucket-List" />
-                <GitRepoCard userName="rhythm-design" repoName="SecretKeeper" />
-                <GitRepoCard userName="rhythm-design" repoName="Leetcode-Solutions-with-Explanation" />
+                {
+                    projectsGithubRepos.repoNames.map((repo,index)=>
+                        <GitRepoCard key={index} userName={projectsGithubRepos.username} repoName={repo} />
+                    )
+                }
             </div>
             <div className="button-div">
-                <Button text="More Projects" href="https://github.com/rhythm-design?tab=repositories" newTab={true} />
+                <Button text={projectsGithubRepos.projectsButtonText} href={projectsGithubRepos.githubRepositoriesLink} newTab={true} />
             </div>
         </div>
     );
