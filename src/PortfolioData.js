@@ -135,23 +135,23 @@ const proficiencyData = {
     heading : "Proficiency" ,
     skillsData : [
         {
-            name : "Frontend",
-            percent : "80%"
+            name : "Backend Development",
+            percent : "90%"
         },
 
         {
-            name : "Backend",
-            percent : "70%"
-        },
-
-        {
-            name : "Java and SpringBoot",
+            name : "System Design",
             percent : "80%"
         },
 
         {
             name : "Programming and DSA",
-            percent : "85%"
+            percent : "80%"
+        },
+
+        {
+            name : "Frontend",
+            percent : "65%"
         }
     ]
 }
